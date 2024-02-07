@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="dersProgrami.exe" version="1.0.0.0" publicKeyToken="d3abfd8187eacb28" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="dersProgrami" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="dersProgrami.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Bildirim Seçenekleri
+          Windows Kullanıcı Hesabı Denetimi düzeyini değiştirmek istiyorsanız,
+           requestedExecutionLevel düğümünü aşağıdakilerden biriyle değiştirin.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Geriye dönük uyumluluk için Dosya ve Kayıt Defteri Sanallaştırması
+         kullanmak istiyorsanız, requestedExecutionLevel düğümünü silin.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="dersProgrami.exe" size="389104">
+      <assemblyIdentity name="dersProgrami" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>yK2hnLI5WcCUMoLOYKHqjpvyVhEXGjarQpHjGHrB0fw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="4991352">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/0K8pwRgXhh6u0VSOGixUSjWrxworUCkV51QfTSpU7I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="591752">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>qWDdTS8PN7PAn/uVZ8MkJrh5ExDX65NcBMgZw9Rr1J4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="dersProgrami.exe.config" size="1058">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Lld8RYG4x8WBvEi92cq5W6yLL/QnEA+yX8Z4Z71Yafk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-IS0U8QB\Softepen" issuerKeyHash="205e6ff923bea657fe37032f5e508717521eb0ba" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>71o8P30QSLM11s/Teph665IwjkHWIhIVPAM1zOksGUs=</DigestValue></Reference></SignedInfo><SignatureValue>Zj4ydkwiOZFJ+iEzUxWpjwhlgCwU2qpD0IVGZdlq2dx3/po5wYtEHP7va5hkTvJH0XJMdhH5xJj4SzPQGB9cVN04Ui28e6FWy9R5YBRurgLWCslf9Jvs5whTOy9cjVsnWSte51g4q5dqYss+kOU6B1X7n2upwWK1Pz6/pZ6XGAw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3ZFjihSP/x1vV0YAIGh1baEAXlcprDEOBh41z0TrUu5HRBDh15gLIhEUO1bxSpEesw3YhzhpQdyVhM2JkXphMXz9dVhD1xAktHYW+jMo/JZz45OIZG7rVCsBsQP3xQBDVEEU4PJJR8tG7+x1H5jmvHdKGmF3jlJ8EBmRDCxG440=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4b192ce9cc35033c151222d6418e3092eb7a987ad3cfd635b348107d3f3c5aef" Description="" Url=""><as:assemblyIdentity name="dersProgrami.exe" version="1.0.0.0" publicKeyToken="d3abfd8187eacb28" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-IS0U8QB\Softepen</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>06ssqej8FbHkqydyv4AB+1hnVLScJM+SuNzC9mGT+cQ=</DigestValue></Reference></SignedInfo><SignatureValue>hwHENDDqQ3VkAvrByl9jEzHgxKL74imI6GX5KhZY5N7Bjt5VoOsHmvOd0QO2PUeaqQg1HBPJ9NWlwZo41dcdADbIBH+B0wIVlnibDy+pg8TbWhGxFQsM8bqSDz5XWc7T/llDxlt6ecoyR1OMw6p1ram888Dd+XgZQd4h/0d3soM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3ZFjihSP/x1vV0YAIGh1baEAXlcprDEOBh41z0TrUu5HRBDh15gLIhEUO1bxSpEesw3YhzhpQdyVhM2JkXphMXz9dVhD1xAktHYW+jMo/JZz45OIZG7rVCsBsQP3xQBDVEEU4PJJR8tG7+x1H5jmvHdKGmF3jlJ8EBmRDCxG440=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQKT6o54JMpqtKWoJ9B0HDcjANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEkAUwAwAFUAOABRAEIAXABTAG8AZgB0AGUAcABlAG4wHhcNMjQwMjA2MjAxNTU4WhcNMjUwMjA2MDIxNTU4WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEkAUwAwAFUAOABRAEIAXABTAG8AZgB0AGUAcABlAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN2RY4oUj/8db1dGACBodW2hAF5XKawxDgYeNc9E61LuR0QQ4deYCyIRFDtW8UqRHrMN2Ic4aUHclYTNiZF6YTF8/XVYQ9cQJLR2FvozKPyWc+OTiGRu61QrAbED98UAQ1RBFODySUfLRu/sdR+Y5rx3Shphd45SfBAZkQwsRuONAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAe22BJpLUofvhccaM8mQbWkMORuzXUoNQIxiMMdV8fCvm1JznFK3oscjzPbIPzi9/EP/YdNfuBmCkQ5NqLt5X80+iQ3UaKid6zLnuGJ2latF2CCbRt5nmieaDmxcO6554AWhSILdjqOWG7BxILaQ7VFbN/tJFS/3vAGrRlVp0UmU=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
